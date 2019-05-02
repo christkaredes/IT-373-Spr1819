@@ -1,0 +1,30 @@
+cabox@IT373:~/workspace/ostep-code/cpu-sched-lottery$ ./lottery 3 10
+List: [25] [100] [50]
+List: [25] [100] [50]
+winner: 46 100
+
+List: [25] [100] [50]
+winner: 110 100
+
+List: [25] [100] [50]
+winner: 168 50
+
+List: [25] [100] [50]
+winner: 140 50
+
+List: [25] [100] [50]
+winner: 125 50
+
+List: [25] [100] [50]
+winner: 140 50
+
+List: [25] [100] [50]
+winner: 22 25
+
+List: [25] [100] [50]
+winner: 26 100
+
+List: [25] [100] [50]
+winner: 1 25
+
+List: [25] [100] [50]

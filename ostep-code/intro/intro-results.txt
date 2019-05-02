@@ -1,0 +1,46 @@
+cabox@IT373:~/workspace/ostep-code/intro$ ./cpu tick
+tick
+tick
+tick
+tick
+tick
+tick
+tick
+tick
+tick
+----------------------------------------------------
+cabox@IT373:~/workspace/ostep-code/intro$ ./mem 10
+(519) addr pointed to by p: 0x1ae5010
+(519) value of p: 11
+(519) value of p: 12
+(519) value of p: 13
+(519) value of p: 14
+(519) value of p: 15
+(519) value of p: 16
+(519) value of p: 17
+(519) value of p: 18
+(519) value of p: 19
+(519) value of p: 20
+---------------------------------------------------------
+cabox@IT373:~/workspace/ostep-code/intro$ ./threads 10000
+Initial value : 0
+Final value   : 20000
+cabox@IT373:~/workspace/ostep-code/intro$ ./threads 10000
+Initial value : 0
+Final value   : 20000
+cabox@IT373:~/workspace/ostep-code/intro$ ./threads 10000
+Initial value : 0
+Final value   : 20000
+cabox@IT373:~/workspace/ostep-code/intro$ ./threads 10000
+Initial value : 0
+Final value   : 20000
+cabox@IT373:~/workspace/ostep-code/intro$ ./threads 100000
+Initial value : 0
+Final value   : 200000
+cabox@IT373:~/workspace/ostep-code/intro$ ./threads 1000000
+Initial value : 0
+Final value   : 1985773
+cabox@IT373:~/workspace/ostep-code/intro$ ./threads 1000000
+Initial value : 0
+Final value   : 1560905
+----------------------------------------------------------

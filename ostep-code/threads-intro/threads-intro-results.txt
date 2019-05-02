@@ -1,0 +1,43 @@
+cabox@IT373:~/workspace/ostep-code/threads-intro$ ./t0
+main: begin
+B
+A
+main: end
+-------------------------------------------------------------
+cabox@IT373:~/workspace/ostep-code/threads-intro$ ./t1 10000
+main: begin [counter = 0] [60208c]
+B: begin [addr of i: 0x7fd6b366af3c]
+B: done
+A: begin [addr of i: 0x7fd6b406bf3c]
+A: done
+main: done
+ [counter: 20000]
+ [should: 20000]
+cabox@IT373:~/workspace/ostep-code/threads-intro$ ./t1 100000
+main: begin [counter = 0] [60208c]
+B: begin [addr of i: 0x7f1c88709f3c]
+B: done
+A: begin [addr of i: 0x7f1c8910af3c]
+A: done
+main: done
+ [counter: 200000]
+ [should: 200000]
+cabox@IT373:~/workspace/ostep-code/threads-intro$ ./t1 1000000
+main: begin [counter = 0] [60208c]
+B: begin [addr of i: 0x7f87b7758f3c]
+A: begin [addr of i: 0x7f87b8159f3c]
+B: done
+A: done
+main: done
+ [counter: 1741461]
+ [should: 2000000]
+cabox@IT373:~/workspace/ostep-code/threads-intro$ ./t1 1000000
+main: begin [counter = 0] [60208c]
+B: begin [addr of i: 0x7fee7682ff3c]
+A: begin [addr of i: 0x7fee77230f3c]
+B: done
+A: done
+main: done
+ [counter: 1167091]
+ [should: 2000000]
+-----------------------------------------------------------------

@@ -1,0 +1,5 @@
+cabox@IT373:~/workspace/ostep-code/vm-intro$ ./va
+location of code  : 0x4005b7
+location of heap  : 0x226a420
+location of stack : 0x7ffc15064a54
+---------------------------------------------------

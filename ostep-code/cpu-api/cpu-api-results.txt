@@ -1,0 +1,18 @@
+cabox@IT373:~/workspace/ostep-code/cpu-api$ ./p1
+hello world (pid:624)
+hello, I am parent of 625 (pid:624)
+--------------------------------------------------
+cabox@IT373:~/workspace/ostep-code/cpu-api$ ./p2
+hello world (pid:626)
+hello, I am child (pid:627)
+hello, I am parent of 627 (wc:627) (pid:626)
+--------------------------------------------------
+cabox@IT373:~/workspace/ostep-code/cpu-api$ ./p3
+hello world (pid:628)
+hello, I am child (pid:629)
+ 32 123 966 p3.c
+hello, I am parent of 629 (wc:629) (pid:628)
+--------------------------------------------------
+cabox@IT373:~/workspace/ostep-code/cpu-api$ ./p4
+*Nothing happens*
+--------------------------------------------------
