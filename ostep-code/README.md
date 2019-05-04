@@ -1,6 +1,9 @@
 # ostep-code
 Code from various chapters in OSTEP (http://www.ostep.org)
 
+# PLEASE READ
+The folders for the assignments have a results.txt file showing what happens when each executable is run.
+
 * [Introduction](https://github.com/christkaredes/IT-373-Spr1819-OSTEP/tree/master/ostep-code/intro)
 
 ## Virtualization
